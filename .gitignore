@@ -1,0 +1,49 @@
+# Credentials and environment files
+.env
+.env.*
+!.env.example
+*.env
+!*.env.example
+dhan.env
+**/dhan_token.py
+**/*token*
+**/*secret*
+**/*session*
+**/*credentials*
+
+# Python environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Trading data and runtime state
+runtime/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+logs/
+*.log
+
+# Backups and temporary files
+backups/
+*.backup_*
+*.bak
+*.tmp
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Historical source copies
+*.bak
+*.bak_*
+*.before
+*.before_*
+*.pre
+*.pre_*
+*.backup
+*.backup_*
